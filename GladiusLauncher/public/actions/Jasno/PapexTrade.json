@@ -1,0 +1,6 @@
+{
+  "icon": "/icons/papex.webp",
+  "title": "Papex",
+  "description": "Simulate crypto trades with paper balances. Place spot and leverage orders, manage positions, and track portfolio performance using live prices.",
+  "actionName": "PapexTrade"
+}

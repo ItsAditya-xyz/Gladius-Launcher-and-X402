@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep the template)
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tooling caches
+.eslintcache
+*.tsbuildinfo
+.turbo/
+coverage/
+.nyc_output/
+
+# Supabase local dev artifacts
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+
+# Hardhat / Solidity artifacts (if you use the token script)
+artifacts/
+cache/
+typechain/
+
+# Python artifacts (token script)
+__pycache__/
+*.py[cod]
+.venv/
+venv/

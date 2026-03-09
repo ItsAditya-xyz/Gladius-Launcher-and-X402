@@ -1,0 +1,66 @@
+# -----------------------------
+# Repo-wide ignores (GladiusLauncher + x402)
+# -----------------------------
+
+# Dependencies
+**/node_modules/
+**/.pnp/
+**/.pnp.js
+**/.pnp.cjs
+
+# Next.js / React builds
+**/.next/
+**/out/
+**/build/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep templates)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+
+# Common editor/OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tooling caches
+**/.eslintcache
+*.tsbuildinfo
+**/.turbo/
+**/.vercel/
+coverage/
+.nyc_output/
+
+# Supabase local dev artifacts
+**/supabase/.temp/
+**/supabase/.branches/
+**/supabase/.env
+
+# Hardhat / Solidity artifacts
+**/artifacts/
+**/cache/
+**/typechain/
+**/typechain-types/
+
+# Python artifacts
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local automation state
+x402Avax/automation/x402_indexer_state.json
