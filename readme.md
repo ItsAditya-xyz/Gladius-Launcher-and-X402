@@ -11,6 +11,11 @@ This workspace also includes an **x402** reference implementation. **x402** is a
 - `x402Avax/blockchain/` — Hardhat project (contracts/scripts used by x402).
 - `x402Avax/automation/` — helper scripts (cron/indexer-style automation).
 
+## Contracts
+
+- Vault/Bank contract (`BANK_ADDRESS`, from `GladiusLauncher/vault-contract/`): `0xf8142D534Cbb5aAF76084d619503f33D6887dbed`
+- x402 gateway contract (HTTP 402 paywall payments): `0xDa90Fac43937AD84dC9483ff118C8c2CEc5f1F56`
+
 ## Quickstart (local dev)
 
 Prereqs:
